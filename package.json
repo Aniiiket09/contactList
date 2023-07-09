@@ -1,0 +1,19 @@
+{
+  "name": "contactlist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aniket",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "node_module": "^0.0.0",
+    "params": "^0.1.1"
+  },
+  "description": ""
+}
