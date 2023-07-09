@@ -1,7 +1,12 @@
 //require librarries
 const mongoose = require("mongoose");
 //connected to the data base
-mongoose.connect("mongodb://127.0.0.1:27017/Contact_List");
+// mongoose.connect("mongodb://127.0.0.1:27017/Contact_List");
+
+mongoose.connect(
+  "mongodb+srv://aniketvtarapurkar99:XbJj6gwTyg4m90sm@cluster0.tjsazgi.mongodb.net/?retryWrites=true&w=majority"
+);
+
 //acquire the connection (to check if it is sucessful)
 const db = mongoose.connection;
 
